@@ -1,0 +1,199 @@
+# ============================================
+# HeartCare AI - Git Ignore
+# Clean GitHub repo - exclude unnecessary files
+# ============================================
+
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+tech_venv/
+*.virtualenv
+
+# Python distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================
+# MODEL FILES (Downloaded from Hugging Face)
+# ============================================
+*.pkl
+*.h5
+*.model
+*.weights
+*.joblib
+*.pt
+*.pth
+cardiac_arrest_model.pkl
+
+# ============================================
+# DATASET FILES (Large files)
+# ============================================
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+heart_data.csv
+data/
+datasets/
+
+# ============================================
+# NODE.JS / FRONTEND
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+package-lock.json
+yarn.lock
+
+# Frontend build outputs
+dist/
+dist-ssr/
+*.local
+.cache/
+
+# ============================================
+# ENVIRONMENT & SECRETS
+# ============================================
+.env
+.env.local
+.env.*.local
+*.env
+.secrets/
+secrets.txt
+credentials.json
+
+# ============================================
+# LOGS
+# ============================================
+*.log
+logs/
+*.log.*
+
+# ============================================
+# JUPYTER NOTEBOOK
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ============================================
+# IDE / EDITORS
+# ============================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# OPERATING SYSTEM
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ============================================
+# TESTING
+# ============================================
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+coverage/
+.nyc_output
+
+# ============================================
+# TEMPORARY FILES
+# ============================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+*.swp
+*.swo
+
+# ============================================
+# DEPLOYMENT
+# ============================================
+.serverless/
+.terraform/
+docker-compose.override.yml
+
+# ============================================
+# HUGGING FACE CACHE
+# ============================================
+.huggingface/
+wandb/
+
+# ============================================
+# DATABASE
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# KEEP THESE (Explicitly NOT ignored)
+# ============================================
+# !README.md
+# !QUICKSTART.md
+# !SUBMISSION_SUMMARY.md
+# !LICENSE
+# !requirements.txt
+# !backend/main.py
+# !backend/utils.py
+# !backend/download_model.py
+# !frontend/src/
+# !frontend/package.json
