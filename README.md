@@ -56,11 +56,6 @@ HeartCareAI/
 ├── heart_app.py              # Legacy Streamlit app
 ├── requirements.txt          # Legacy dependencies
 │
-├── Dockerfile.backend        # Docker config for FastAPI
-├── Dockerfile.frontend       # Docker config for Vue.js
-├── docker-compose.yml        # Multi-container orchestration
-├── spaces_config.yml         # Hugging Face Spaces configuration
-│
 ├── .gitignore               # Git ignore rules
 ├── LICENSE                  # MIT License
 └── README.md                # This file
@@ -81,7 +76,7 @@ HeartCareAI/
 
 #### **Step 1: Clone Repository**
 ```bash
-git clone https://github.com/ZainShah6500/HeartCareAI-UraanAI.git
+git clone https://github.com/ZainShah740/HeartCareAI-UraanAI.git
 cd HeartCareAI-UraanAI
 ```
 
