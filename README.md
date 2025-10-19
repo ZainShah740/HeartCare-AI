@@ -114,31 +114,6 @@ Open **http://localhost:3000** in your browser and start predicting!
 
 ---
 
-## 🐳 Docker Deployment
-
-### Option 1: Docker Compose (Recommended)
-
-```bash
-# Build and run both services
-docker-compose up --build
-
-# Access:
-# Frontend: http://localhost:3000
-# Backend: http://localhost:8000
-```
-
-### Option 2: Individual Containers
-
-```bash
-# Build backend
-docker build -f Dockerfile.backend -t heartcare-backend .
-docker run -p 8000:8000 heartcare-backend
-
-# Build frontend
-docker build -f Dockerfile.frontend -t heartcare-frontend .
-docker run -p 3000:80 heartcare-frontend
-```
-
 ---
 
 ## 🌐 Deployment
@@ -149,14 +124,6 @@ docker run -p 3000:80 heartcare-frontend
 2. Select **Docker** as SDK
 3. Push your code to the Space repository
 4. The `spaces_config.yml` will handle the configuration
-
-### Deploy on **Render**
-
-1. Create a new **Web Service** on [Render](https://render.com)
-2. Connect your GitHub repository
-3. Set build command: `pip install -r backend/requirements.txt`
-4. Set start command: `uvicorn backend.main:app --host 0.0.0.0 --port $PORT`
-5. For frontend, create a **Static Site** pointing to `frontend/dist/`
 
 ---
 
@@ -286,6 +253,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-**Built with ❤️ for Pakistan | HeartCare AI © 2025**
+**Built with ❤️ for World | HeartCare AI © 2025**
 
 
