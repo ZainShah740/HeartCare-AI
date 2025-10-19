@@ -76,8 +76,7 @@ HeartCareAI/
 
 #### **Step 1: Clone Repository**
 ```bash
-git clone https://github.com/ZainShah740/HeartCareAI-UraanAI.git
-cd HeartCareAI-UraanAI
+git clone https://github.com/ZainShah740/HeartCare-AI.git
 ```
 
 #### **Step 2: Backend (Terminal 1)**
