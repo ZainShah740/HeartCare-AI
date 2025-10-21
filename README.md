@@ -2,14 +2,14 @@
 
 > **AI-Powered Heart Disease Risk Assessment | FastAPI + Vue.js**
 
-Professional full-stack web app that predicts cardiac arrest risk using Machine Learning (85% accuracy, trained on 400K+ records). Designed for **Pakistan's healthcare challenges** with instant, accessible insights.
+Professional full-stack web app that predicts cardiac arrest risk using Machine Learning (85% accuracy, trained on 400K+ records). Designed for **World's healthcare challenges** with instant, accessible insights.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-green.svg)](https://fastapi.tiangolo.com/)
 [![Vue.js 3](https://img.shields.io/badge/Vue.js-3.5-brightgreen.svg)](https://vuejs.org/)
 
-**✨ Competition-Ready | 🚀 Easy Setup | 💡 Real-World Impact**
+**🚀 Easy Setup | 💡 Real-World Impact**
 
 ---
 
