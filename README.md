@@ -219,7 +219,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 🔗 Connect & Support
 
-**Developer**: Zain Shah
+**Developer**: Muhammad Zain
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/zain-shah-871aa532a)
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?logo=twitter)](https://x.com/zainshah_x)
