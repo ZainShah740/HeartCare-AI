@@ -228,31 +228,5 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## ⚠️ Disclaimer
-
-**This tool is for informational and educational purposes only.** It should **NOT** replace professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider for medical decisions.
-
----
-
-## 🙏 Acknowledgments
-
-- **Dataset**: Kaggle - Pakistan Heart Attack Risk Dataset
-- **Inspiration**: Addressing Pakistan's rising cardiac health challenges
-- **Technologies**: FastAPI, Vue.js, scikit-learn, Hugging Face Hub
-
----
-
-## 📈 Roadmap
-
-- [ ] Add user authentication and history tracking
-- [ ] Integrate with wearable devices (Fitbit, Apple Watch)
-- [ ] Multi-language support (Urdu, Punjabi)
-- [ ] Real-time monitoring dashboard
-- [ ] Mobile app (React Native)
-- [ ] Integration with telemedicine platforms
-
----
-
 **Built with ❤️ for World | HeartCare AI © 2025**
-
 
